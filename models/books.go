@@ -10,7 +10,7 @@ type Books struct{
 
 }
 
-func MigrateBooks(bd *gorm.DB) error{
+func MigrateBooks(db *gorm.DB) error{
 	err := db.AutoMigrate(&Books{})
 	return err
 }

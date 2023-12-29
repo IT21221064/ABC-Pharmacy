@@ -1,7 +1,7 @@
 package storage
 
 import(
-	"fnt"
+	"fmt"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
